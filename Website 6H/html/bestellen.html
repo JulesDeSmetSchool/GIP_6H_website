@@ -11,8 +11,13 @@
 
     <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body style="background: #B4DDFF;">
     
     <!--navbar-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary mb-2 borderColorBug" style="border-color: #FFB7D5 !important;">
@@ -24,7 +29,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 row">
             <li class="nav-item col-4">
-              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
             
               <!--alle hyperlinks op navbar-->
             </li>
@@ -32,7 +37,7 @@
               <a class="nav-link" href="faq.html">FAQ</a>
             </li>
             <li class="nav-item col-4">
-              <a class="nav-link" href="bestellen.html">Bestellen</a>
+              <a class="nav-link active" href="bestellen.html">Bestellen</a>
             </li>
           </ul>
         </div>
@@ -42,7 +47,23 @@
 
   <!---->
   <div class="container rounded-2" style="background: #FFB7D5;">
-
+    <!--Titel bestelpagina-->
+    <div class="row" id="boven">
+      <div class="col-12">
+        <h1 class="text-center mt-5" style="font-family: 'Lobster', cursive;">Zin om te snoepen? Bestel hier!</h1>
+      </div>
+      <!--Uitleg over bestellen-->
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, cumque. Asperiores explicabo sint neque doloremque fugit atque beatae adipisci. Esse dignissimos nostrum dolor ratione recusandae quas assumenda consequatur corrupti natus.
+      </p>
+    </div>
+    <div class="my-2">
+      <h2 class="text-center my-5">Bestelformulier</h2>
+      <!--Google form om te bestellen hieronder plaatsen-->
+      <img src="../images/PlaceholderImage1.png" class="rounded-2 my-2 center" style="max-width: none;"  alt="placeholderafbeelding google form">
+    </div>
+    
+    
   </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
