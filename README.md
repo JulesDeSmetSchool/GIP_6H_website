@@ -23,3 +23,6 @@ over ons: wie we zijn, waarom we het doen, waar we zitten, alle leerlingen op kl
 wat moet er zeker in:
 --> goed herkenbaar, duidelijk maken dat alleen snoep en chocolade verkopen
 --> link met snoepje duidelijk maken op website
+
+BELANGRIJK!!!
+logo aanpassing: 'T --> kleine letter, ' aan andere kant & kleuren aanpassen!
