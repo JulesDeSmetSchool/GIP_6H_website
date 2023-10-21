@@ -8,3 +8,11 @@
 .centerText{
     text-align: center;
 }
+
+.fixedNavbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Zorgt ervoor dat de navbar boven andere elementen ligt */
+}
