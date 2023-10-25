@@ -13,11 +13,13 @@
   <!--bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
   <!--google fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  
 
 </head>
 
@@ -55,9 +57,10 @@
   <!---->
   <div class="container rounded-2" style="background: #FFB7D5; overflow-y: hidden;">
 
-    <!--slogan-->
+    <!--titel & slogan-->
     <div class="row" id="boven" style="background-color: #41210A;">
       <div class="col-12">
+        <h1 class="text-center my-5" style="font-family: 'Lobster', cursive; color: #FFB7D5; font-size: 50pt;">'t zoete woordje</h1>
         <h1 class="text-center my-5" style="font-family: 'Lobster', cursive; color: #FFB7D5;">Buitengewoon lekker!</h1>
       </div>
     </div>
@@ -76,9 +79,11 @@
     </div>
 
     <!--voor kleinere schermen-->
-    <div class="d-block d-md-none" style="background-image: url(images/chocolade.png); background-repeat: repeat-x;">
-      <img src="images/groepsfotoTeam.jpg" class="rounded-2 my-2 center" style="width: 100%;"
+    <div class="row d-block d-md-none" style="background-image: url(images/chocolade.png); background-repeat: repeat-x;">
+      <div class="col-12">
+        <img src="images/groepsfotoTeam.jpg" class="rounded-2 mb-2 center" style="width: 100%;"
         alt="groepsfoto team 't zoete woordje">
+      </div>
     </div>
 
 
@@ -90,7 +95,6 @@
       <p class="bg-light rounded-2 p-2">Welkom op de website van het buitengewoon lekkere: ‘t Zoete Woordje.
         <br><br>
         ‘t Zoete Woordje is een leeronderneming van de klassen 6 Handel & 6 Kantoor van de school Sint-Gregorius.
-        <br><br>
         Onder begeleiding van onze leerkrachten mevrouw Gossé, mevrouw Vanden Broeck en mevrouw Huygebaert verkopen wij
         in functie van onze gip snoepgoed.
         <br><br>
@@ -98,7 +102,7 @@
         dierbaren of ze natuurlijk zelf opsmullen.
         <br><br>
         Bestel nu en geef iemand anders of jezelf een welverdiende, smakelijke verwennerij!
-        <br><br>
+        <br>
         Bon appétit!
       </p>
       <hr>
@@ -110,7 +114,6 @@
       <p class="bg-light rounded-2 p-2">Welkom op de website van het buitengewoon lekkere: ‘t Zoete Woordje.
         <br><br>
         ‘t Zoete Woordje is een leeronderneming van de klassen 6 Handel & 6 Kantoor van de school Sint-Gregorius.
-        <br><br>
         Onder begeleiding van onze leerkrachten mevrouw Gossé, mevrouw Vanden Broeck en mevrouw Huygebaert verkopen wij
         in functie van onze gip snoepgoed.
         <br><br>
@@ -118,7 +121,7 @@
         dierbaren of ze natuurlijk zelf opsmullen.
         <br><br>
         Bestel nu en geef iemand anders of jezelf een welverdiende, smakelijke verwennerij!
-        <br><br>
+        <br>
         Bon appétit!
       </p>
       <hr>
@@ -132,41 +135,53 @@
     <div class="d-none d-lg-block">
       <h2 class="mb-4 mt-5">Onze producten</h2>
       <div class="row">
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-3">
           <h3 class="centerText">Toblerone melkchocolade</h3>
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-3">
           <h3 class="centerText">Toblerone wit</h3>
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-3">
           <h3 class="centerText">Haribo snoepzakje</h3>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h3 class="centerText">Pakket</h3>
         </div>
       </div>
       <div class="row col-centered">
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-3">
           <!--<h3 class="centerText mb-5">Toblerone melkchocolade</h3>-->
-          <img src="images/tobleroneMelkchocolade.png" class="rounded-2 my-2 center bg-light"
+          <img src="images/tobleroneMelkchocolade.png" class="rounded-2 my-2 p-3 center bg-light"
             style="max-width: none; width: 100%;" alt="product 1">
           <p class="bg-light rounded-2 p-2">
-            Toblerone is een Zwitsers chocolademerk. Wij verkopen witte alsook melkchocolade.
+            Toblerone is een Zwitsers chocolademerk. Wij verkopen de melkchocoladereep van 100g aan 3,00 euro.
           </p>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-3">
           <!--<h3 class="centerText mb-5">Toblerone wit</h3>-->
-          <img src="images/tobleroneWit.png" class="rounded-2 my-2 center bg-light"
+          <img src="images/tobleroneWit.png" class="rounded-2 my-2 p-3 center bg-light"
             style="max-width: none; width: 100%;" alt="product 2">
           <p class="bg-light rounded-2 p-2">
-            Toblerone is een Zwitsers chocolademerk. Wij verkopen witte alsook melkchocolade.
+            Toblerone is een Zwitsers chocolademerk. Wij verkopen de witte variant van 100g aan 3,00 euro.
           </p>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-3">
           <!--<h3 class="centerText mb-5">Haribo snoepzakje</h3>-->
-          <img src="images/hariboSnoepzak.png" class="rounded-2 my-2 center bg-light"
+          <img src="images/hariboSnoepzak.png" class="rounded-2 my-2 p-3 center bg-light"
             style="max-width: none; width: 100%;" alt="product 3">
           <p class="bg-light rounded-2 p-2">
-            Wij verkopen snoepzakjes van het merk Haribo.
+            Wij verkopen snoepzakjes van het merk Haribo. Bij aankoop van dit product krijgt u een mengeling snoep van 250g voor 5,00 euro.
+          </p>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <!--<h3 class="centerText mb-5">Haribo snoepzakje</h3>-->
+          <img src="images/Pakket.png" class="rounded-2 my-2 p-3 center bg-light"
+            style="max-width: none; width: 100%;" alt="product 3">
+          <p class="bg-light rounded-2 p-2">
+            Koop dit voordelig pakket voor 10,00 euro. Het bestaat uit: 1 reep Toblerone melkchocolade (100g), 1 reep Toblerone witte chocolade (100g) en een snoepzakje (250g).
           </p>
         </div>
       </div>
@@ -180,20 +195,23 @@
           <h3 class="centerText mb-5">Toblerone melkchocolade</h3>
           <img src="images/tobleroneMelkchocolade.png" class="d-block w-100 rounded-2 my-2 center bg-light p-2"
             alt="toblerone melkchocolade">
-          <p class="bg-light rounded-2 p-2">Toblerone is een Zwitsers chocolademerk. Wij verkopen witte alsook
-            melkchocolade.</p>
+          <p class="bg-light rounded-2 p-2">Toblerone is een Zwitsers chocolademerk. Wij verkopen de melkchocoladereep van 100g aan 3,00 euro.</p>
         </div>
         <div class="carousel-item">
           <h3 class="centerText mb-5">Toblerone wit</h3>
           <img src="images/tobleroneWit.png" class="d-block w-100 rounded-2 my-2 center bg-light p-2"
             alt="toblerone witte chocolade">
-          <p class="bg-light rounded-2 p-2">Toblerone is een Zwitsers chocolademerk. Wij verkopen witte alsook
-            melkchocolade.</p>
+          <p class="bg-light rounded-2 p-2">Toblerone is een Zwitsers chocolademerk. Wij verkopen de witte variant van 100g aan 3,00 euro.</p>
         </div>
         <div class="carousel-item">
           <h3 class="centerText mb-5">Haribo snoepzakje</h3>
           <img src="images/hariboSnoepzak.png" class="d-block w-100 rounded-2 my-2 center bg-light p-2" alt="gemengd snoepzakje">
-          <p class="bg-light rounded-2 p-2">Wij verkopen snoepzakjes van het merk Haribo.</p>
+          <p class="bg-light rounded-2 p-2">Wij verkopen snoepzakjes van het merk Haribo. Bij aankoop van dit product krijgt u een mengeling snoep van 250g voor 5,00 euro.</p>
+        </div>
+        <div class="carousel-item">
+          <h3 class="centerText mb-5">Pakket</h3>
+          <img src="images/Pakket.png" class="d-block w-100 rounded-2 my-2 center bg-light p-2" alt="gemengd snoepzakje">
+          <p class="bg-light rounded-2 p-2">Koop dit voordelig pakket voor 10,00 euro. Het bestaat uit: 1 reep Toblerone melkchocolade (100g), 1 reep Toblerone witte chocolade (100g) en een snoepzakje (250g).</p>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
@@ -215,13 +233,18 @@
 
     <!--voor schermgroottes beginned van large-->
     <div class="row p-2" id="boven" style="background-color: #41210A;">
-      <h3 class="mt-5" style="color: #FFB7D5;">Contactgegevens</h3>
+      <h3 class="mt-4 pb-3" style="color: #FFB7D5;">Contactgegevens</h3>
       <p class="text-wrap" style="color: #FFB7D5;">
+        6 Kantoor: Verpakking en opvolging bestellingen<br>
+        6 Handel: Boekhouding, communicatie en sociale media
+        <br><br>
+        Onze trouwe partner: OV3 Receptie
+        <br><br>
         BuSO Sint-Gregorius<br>
         Jules Destréelaan 67<br>
         9050 Gentbrugge<br>
-        E-mailadres: leeronderneminghandelkantoor@ll.sintgregorius.be<br>
-        <i class="bi bi-telephone"></i> +32 470 87 37 05<br>
+        <a href="mailto:leeronderneminghandelkantoor@ll.sintgregorius.be" class="aTagOpmaak"><i class="bi bi-envelope-at"></i> leeronderneminghandelkantoor@ll.sintgregorius.be</a><br>
+        <a href="tel:+32470873705" class="aTagOpmaak"><i class="bi bi-telephone"></i> +32 470 87 37 05</a><br>
       </p>
     </div>
 
