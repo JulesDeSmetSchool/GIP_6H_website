@@ -16,3 +16,14 @@
     width: 100%;
     z-index: 1000; /* Zorgt ervoor dat de navbar boven andere elementen ligt */
 }
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.afbeeldingBenedenDiv img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
