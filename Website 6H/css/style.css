@@ -28,7 +28,12 @@
     bottom: 0;
 }
 
-.aTagOpmaak{
+.aTagOpmaakRoze{
     text-decoration: none;
     color: #FFB7D5;
+}
+
+.aTagOpmaakZwart{
+    text-decoration: none;
+    color: black;
 }

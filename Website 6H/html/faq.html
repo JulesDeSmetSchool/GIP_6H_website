@@ -13,6 +13,7 @@
   <!--bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
   <!--google fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,7 +21,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 
-<body style="background-image: url(../images/FAQAchtergrond.jpg); padding-top: 40px; background-size: cover;">
+<body class="mt-5" style="background-color:#FFB7D5">
 
   <!--navbar-->
   <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary mb-2 borderColorBug"
@@ -52,7 +53,7 @@
   <!--einde navbar-->
 
   <!---->
-  <div class="container rounded-2" style="background: #FFB7D5;">
+  <div class="container rounded-2 mb-2" style="background: #FFB7D5;">
     <!--Titel FAQ-pagina-->
     <div class="row" id="boven">
       <div class="col-12">
@@ -64,50 +65,121 @@
         beantwoorden wij onze meestgestelde vragen.
       </p>
     </div>
-    <div class="row">
-      <div class="col-12 my-2">
-        <h2 style="font-family: 'Lobster', cursive">Onze meestgestelde vragen</h2>
-        <div class="my-3 bg-light rounded-2 p-2">
-          <ul>
-            <li>Waar kunnen we bestellen?</li>
-            <li style="list-style-type: square;">Ons bestelformulier kan je gebruiken om onze producten te bestellen.
-            </li>
-          </ul>
-        </div>
-        <div class="my-3 bg-light rounded-2 p-2">
-          <ul>
-            <li>Hoe kunnen we betalen?</li>
-            <li style="list-style-type: square;">Bestellingen kunnen cash, via overschrijving of via Payconiq betaald
-              worden.</li>
-          </ul>
-        </div>
-        <div class="my-3 bg-light rounded-2 p-2">
-          <ul>
-            <li>Hoe kunnen we betalen?</li>
-            <li style="list-style-type: square;">Bestellingen kunnen cash, via overschrijving of via Payconiq betaald
-              worden.</li>
-          </ul>
-        </div>
-        <div class="my-3 bg-light rounded-2 p-2">
-          <ul>
-            <li>Wat is gip?</li>
-            <li style="list-style-type: square;">GIP staat voor Geïntegreerde Proef, en het is een
-              evaluatievorm die vaak wordt gebruikt in het Vlaamse onderwijssysteem in België. Een GIP
-              is een geïntegreerde proef waarbij leerlingen uit het secundair onderwijs een complexe
-              opdracht uitvoeren die verschillende vakken integreert. Het doel van een GIP is om te tonen
-              dat een leerling in staat is om op een zelfstandige manier een probleem aan te pakken en
-              daarbij kennis, vaardigheden en attitudes uit verschillende vakken te combineren.</li>
-          </ul>
-        </div>
-        <div class="my-3 bg-light rounded-2 p-2">
-          <ul>
-            <li>Waarvoor gebruiken we de winst van de gip?</li>
-            <li style="list-style-type: square;">Hiermee financieren we de 100-dagen voor de leerlingen
-              van het zesde jaar.</li>
-          </ul>
+
+    <!--FAQ-->
+      <div class="row my-5">
+        <div class="col-lg-8 col-12 offset-lg-2 text-start mb-2">
+          <!--Accordion start-->
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button collapsed knop" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseOne">
+                  Waar kunnen we bestellen?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <p>
+                    Ons <a href="bestelpagina.html" class="aTagOpmaakZwart">bestelformulier</a> kan je gebruiken om onze <a
+                      href="productpagina.html" class="aTagOpmaakZwart">producten</a> te bestellen.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed knop" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo">
+                  Hoe kunnen we betalen?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <p>
+                  Bestellingen kunnen cash, via overschrijving of via Payconiq betaald worden.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed knop" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree">
+                  Wat is gip?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  <p>
+                    GIP staat voor Geïntegreerde Proef, en het is een evaluatievorm die vaak wordt gebruikt in het
+                    Vlaamse
+                    onderwijssysteem in België. Een GIP is een geïntegreerde proef waarbij leerlingen uit het secundair
+                    onderwijs een complexe opdracht uitvoeren die verschillende vakken integreert. Het doel van een GIP
+                    is
+                    om te tonen dat een leerling in staat is om op een zelfstandige manier een probleem aan te pakken en
+                    daarbij kennis, vaardigheden en attitudes uit verschillende vakken te combineren.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                <button class="accordion-button collapsed knop" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseFour">
+                  Waarvoor gebruiken we de winst van de gip?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingFour">
+                <div class="accordion-body">
+                  <p>
+                    Hiermee financieren we de 100-dagen.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Accordion Einde-->
         </div>
       </div>
+    <!--Einde FAQ-->
+
+    <!--tussenruimte-->
+    <div class="p-5" style="background-image: url(../images/chocoladeOmgedraaid.png); background-repeat: repeat-x;">
+
     </div>
+
+    <!--contactgegevens-->
+
+    <!--voor schermgroottes beginned van large-->
+    <div class="row p-2 rounded-2" id="boven" style="background-color: #41210A;">
+      <h3 class="mt-4 pb-3" style="color: #FFB7D5;">Contactgegevens</h3>
+      <p class="text-wrap" style="color: #FFB7D5;">
+        6 Kantoor: Verpakking en opvolging bestellingen<br>
+        6 Handel: Boekhouding, communicatie en sociale media
+        <br><br>
+        Onze trouwe partner: OV3 Receptie
+        <br><br>
+        BuSO Sint-Gregorius<br>
+        Jules Destréelaan 67<br>
+        9050 Gentbrugge<br>
+        <a href="mailto:leeronderneminghandelkantoor@ll.sintgregorius.be" class="aTagOpmaakRoze"><i class="bi bi-envelope-at"></i> leeronderneminghandelkantoor@ll.sintgregorius.be</a><br>
+        <a href="tel:+32470873705" class="aTagOpmaakRoze"><i class="bi bi-telephone"></i> +32 470 87 37 05</a><br>
+      </p>
+    </div>
+    <!--einde contactgegevens-->
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
